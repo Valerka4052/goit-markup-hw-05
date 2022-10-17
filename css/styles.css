@@ -85,6 +85,8 @@ border: 1px solid #EEEEEE;
     letter-spacing: 0.02em;
 
     color: var(--title-text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list .link:hover,
 .list .link:focus
@@ -113,6 +115,8 @@ border: 1px solid #EEEEEE;
         letter-spacing: 0.02em;
 
         color: var(--primary-text-color);
+
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-icon-mail{
     display: flex;
@@ -190,6 +194,8 @@ border: 1px solid #EEEEEE;
 
     background-color:#188ce8;
     color: white;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero .order:hover {
     cursor: pointer;
@@ -331,8 +337,10 @@ border: 1px solid #EEEEEE;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-       fill: #AFB1B8;
+    fill: #AFB1B8;
     background-color: white;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:active,
 .social-link:hover{
@@ -385,6 +393,8 @@ margin-bottom: 0;
     border: 1px solid rgba(175, 177, 184, 1);
     margin-left: 30px;
     color: rgba(175, 177, 184, 1);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-link:first-child{
     margin-left: 0;
@@ -392,6 +402,8 @@ margin-bottom: 0;
 
 .client-icon{
 fill: currentColor;
+
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-link:hover,
 .client-link:focus{
@@ -435,6 +447,7 @@ fill: var(--accent-color);
     color: var(--title-text-color) ;
     background-color: transparent;
    
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 .navigation{
     margin-right: 8px;
@@ -473,6 +486,7 @@ img{
     
     margin: 15px;
     flex-basis: calc((100% - 30px * 3) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .description {
@@ -554,7 +568,9 @@ address {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer{
     display: flex;
@@ -595,6 +611,9 @@ color: #FFFFFF
     
     background-color: rgba(255, 255, 255, 0.1);
     color: #FFFFFF;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 .footer-icon-item{
     margin-right: 10px;
