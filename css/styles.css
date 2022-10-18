@@ -368,7 +368,7 @@ width: 100%;
 .our-team {
     background-color: #F5F4FA;
 }
-.our-team.title {
+.our-team .title {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 700;
@@ -387,7 +387,7 @@ width: 100%;
     margin-top: 50px;
     list-style: none;
 }
-.our-team.item{
+.our-team .item{
     padding-bottom: 30px;
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
